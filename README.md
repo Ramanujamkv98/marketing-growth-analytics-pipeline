@@ -174,8 +174,11 @@ SQL – window functions, CTEs, analytics logic
 
 📁 Repository Structure
 .
+
 ├── README.md
+
 ├── sql/
+
 │   ├── staging_customers.sql
 │   ├── staging_events.sql
 │   ├── mart_daily_kpis.sql
@@ -183,6 +186,7 @@ SQL – window functions, CTEs, analytics logic
 │   ├── mart_customer_latest_activity.sql
 │   └── mart_customer_engagement.sql
 ├── docs/
+
 │   ├── data_model.md
 │   ├── funnel_logic.md
 │   └── assumptions.md
