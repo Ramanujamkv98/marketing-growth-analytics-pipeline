@@ -1,14 +1,14 @@
 # marketing-growth-analytics-pipeline
 End-to-end marketing &amp; growth analytics pipeline using BigQuery and Looker Studio, featuring KPI modeling, true sequential funnel analysis, and customer engagement insights.
 
-📊 End-to-End Marketing & Growth Analytics Pipeline
+ End-to-End Marketing & Growth Analytics Pipeline
 
 From raw events to executive insights
 
 This project demonstrates an end-to-end analytics pipeline built using Google Cloud Platform (GCS + BigQuery) and Looker Studio to analyze revenue performance, customer funnel behavior, and engagement health.
 It mirrors how modern analytics teams structure data, apply business logic, and deliver decision-ready dashboards.
 
-🚀 Project Objective
+Project Objective
 
 The goal of this project was to answer three core business questions:
 
@@ -18,7 +18,7 @@ Where are customers dropping off in the funnel?
 
 Are customers still engaged or at risk of churn?
 
-🧱 Architecture Overview
+Architecture Overview
 
 The project follows a layered analytics architecture to ensure scalability, clarity, and lineage.
 
@@ -32,7 +32,7 @@ BigQuery – Mart Layer
         ↓
 Looker Studio Dashboard
 
-🗂️ Data Layers Explained
+Data Layers Explained
 🔹 Raw Layer
 
 Source data uploaded as CSV files into Google Cloud Storage
@@ -162,7 +162,7 @@ Why is it happening?
 
 What should we do next?
 
-🛠️ Tech Stack
+Tech Stack
 
 Google Cloud Storage – data ingestion
 
@@ -204,6 +204,3 @@ SQL – window functions, CTEs, analytics logic
 ✔ Customer engagement and churn modeling
 ✔ Executive-ready dashboard design
 
-🏁 Final Note
-
-This project reinforced that analytics is not just about charts, but about building reliable systems that turn raw data into decisions.
