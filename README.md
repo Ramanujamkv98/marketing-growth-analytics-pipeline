@@ -172,29 +172,6 @@ Looker Studio – visualization & dashboards
 
 SQL – window functions, CTEs, analytics logic
 
-📁 Repository Structure
-.
-
-├── README.md
-
-├── sql/
-
-│   ├── staging_customers.sql
-│   ├── staging_events.sql
-│   ├── mart_daily_kpis.sql
-│   ├── mart_true_funnel.sql
-│   ├── mart_customer_latest_activity.sql
-│   └── mart_customer_engagement.sql
-├── docs/
-
-│   ├── data_model.md
-│   ├── funnel_logic.md
-│   └── assumptions.md
-└── screenshots/
-    ├── executive_overview.png
-    ├── revenue_trend.png
-    ├── funnel_analysis.png
-    └── engagement_health.png
 
 🧠 Key Takeaways
 
