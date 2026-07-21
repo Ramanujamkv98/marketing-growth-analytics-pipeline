@@ -91,8 +91,11 @@ Engagement buckets (active → churn risk)
 
 These tables are optimized for reporting and dashboards.
 
+<img width="1122" height="733" alt="image" src="https://github.com/user-attachments/assets/78c0fb28-9880-484a-89d8-73556a558a30" />
+
 📈 Key Analytics & Insights
 1️⃣ Revenue & KPI Analysis
+
 
 Built daily KPIs and applied a 7-day moving average to smooth volatility
 
