@@ -184,3 +184,14 @@ SQL – window functions, CTEs, analytics logic
 ✔ Customer engagement and churn modeling
 ✔ Executive-ready dashboard design
 
+
+The analysis assumes:
+Each customer represents one conversion journey within the dataset.
+Events are generated in the expected business order; a page_view cannot occur without a preceding visit, and subsequent steps cannot occur before their prerequisite steps.
+The email step represents a cart-abandonment or nurture message sent after the initial website interaction.
+A customer may exit at any stage, so later funnel events can be missing.
+customer_id consistently identifies the same customer across all events.
+Event timestamps are complete, correctly recorded, and use a consistent timezone.
+Repeated events of the same type are reduced to the earliest occurrence using MIN(event_timestamp).
+The funnel measures customer progression, not causal impact. Reaching a step does not prove that the previous step caused the next one.
+The dataset contains one journey per customer. A production implementation with multiple sessions or campaigns would additionally partition events by a session_id, journey_id, or conversion window
